@@ -1,0 +1,555 @@
+
+body
+{
+    margin:0;
+    padding:0;
+    font-family: arial;
+    background: url(imagenes/fondo-vivo-css.png) no-repeat;
+    background-size:cover;
+    background-attachment: fixed; 
+    height: 330%;
+    overflow-x: hidden;
+    
+}
+header
+{
+    z-index: 100;
+    background-color: #130847;
+    position: fixed;
+    height:70px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+header img
+{
+    width: 60px;
+    height: 60px;
+    padding-left: 35px;
+    float:left;
+    padding-top: 5px;
+    
+    
+}
+.owl
+{
+    z-index: 100;
+    font-size: 42px;
+    top: 8px;
+    left: 5px;
+    color:white;
+    font-family: Century Gothic;
+    
+}
+#email-icon:hover
+{
+    transform:scale(0.9);
+}
+#email-icon
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -70px;
+    top: 4px;
+    transition: all 0.9s;
+}
+nav ul li:hover
+{
+   transform:scale(0.9);
+}
+
+nav ul li 
+{
+    top: -68px;
+    list-style:none ;
+    margin-left: 65px;
+    float: left;
+    padding: 25px 0;
+    position: relative;
+    left: 420px;
+    transition: all 0.9s;
+   
+   
+}
+#contenedor 
+{
+
+    top: -91px;
+}
+#contenedor-2
+{
+    transform:translate(10%, 100%);
+    position: absolute;
+}
+.yo
+{
+    width:210px;
+    height:190px;
+    transform: translate(70%, 130%);
+    border-radius:70%;
+}
+.habili
+{
+    top: -80px;
+    left:345px;
+    font-family:Century Gothic;
+    font-weight: bold;
+    font-size:30px;
+    color: #350a0aaa;
+}
+.imagenes
+{
+    width: 500px;
+    position: absolute;
+    left: 200px;
+    top: -20px;
+
+}
+
+aside 
+{
+    position: absolute;
+    top: 840px;
+    left: 480px;
+
+}
+aside img:hover
+{
+    transform: scale(0.9);
+}
+aside img
+{
+   width:100px;
+   height:100px;
+   padding:30px;  
+   cursor:pointer;
+   transition: all 0.5s;
+}
+a
+{
+    font-family:Helvetica;
+    color: #bbb6b6;
+    text-decoration: none;
+    font-size: 20px;
+}
+.mis-datos label
+{
+    left: 100px;
+    top: 470px;
+    position: absolute;
+    text-align:justify;
+    font-family: Verdana;
+    color: #1b0444;
+    
+}
+#contenedor-3
+{
+    width: 100%;
+    position:absolute;
+    transform: translate(0%,315%);
+    
+}
+#contenedor-4
+{
+    position:relative;
+    width: 100%;
+    height: 25%;
+    transform: translate(0%,380%);
+
+}
+#contenedor-4 img 
+{
+    position: relative;
+    width: 14%;
+    height: 25%;
+    padding-bottom:5%;
+    transition: all 0.5s;
+}
+#contenedor-4 img:hover
+{
+    transform: scale(0.9);
+}
+#contenedor-4 [class="contenedor-general"]
+{
+    position: relative;
+    width: 100%;
+    height:50%;
+}
+#contenedor-4 [class="contenedor-particular"]
+{
+    position: relative;
+    color: #0c0b0b57;
+    text-align: center;
+    width: 20%;
+    height:50%;
+    padding:0% 1% 0%;
+}
+.contactos
+{
+    font-family:Century Gothic;
+    position: relative;
+    font-weight: bold;
+    font-size:30px;
+    color: #350a0aaa;
+    padding-bottom: 10%;
+    height:20%;
+}
+.contactos p
+{
+    font-size:12px;
+    position: relative;
+    font-family: Century Gothic;
+    color:#1a1d1ab6;
+    width: 50%;
+    transform: translate(-11%,-130%);
+    
+    
+}
+footer
+{
+    position: relative;
+    top:90%;
+    text-align: center;
+    width: 30%;
+    left: 35%;
+    color: #0f0c0caa;
+    font-family: arial;
+
+}
+.fondo-mega:hover
+{
+    transform: scale(0.9)
+}
+.fondo-mega
+{
+    position: absolute;
+    width:590px;
+    height:400px;
+    top:-50px;
+    left:-470px;
+    transition: all 0.5s;
+}
+body
+{
+    margin:0;
+    padding:0;
+    font-family: arial;
+    background-size:cover;
+    background-attachment: fixed; 
+}
+.contenedor-general 
+{
+    position: relative;
+    width:96%;
+    height:50%;
+    padding-left :100px;
+    padding-right :10px;
+
+}
+.contenedor-particular
+{
+    position:relative;
+    width:30%;
+    height:100px;
+    float:left;
+    padding-top: 2%;
+    padding-bottom:4%;
+}
+.servicios
+{
+    padding-top:2%;
+    left:340px;
+    text-align:left;
+    padding-left: 8%;
+    font-family:Century Gothic;
+    font-weight: bold;
+    font-size:30px;
+    color: #350a0aaa;
+}
+.titulo
+{
+    font-size:15px;
+    font-family: Century Gothic;
+    color:#27146d;
+    text-align: center;
+    padding-bottom: 0;
+
+  
+
+}
+.parrafo
+{
+    width: 80%;
+    height:50%;
+    
+}
+.parrafo p
+{
+    font-size:12px;
+    font-family: Century Gothic;
+    color:#1a1d1ab6;
+    text-align: center;
+    width: 80%;
+    transform: translate(-10%,-120%);
+  
+    
+}
+
+.imagen img
+{
+    width: 11%;
+    transform: translate(410%,10%);
+    padding-top:5%;
+    padding-bottom:5%;
+    transition: all 0.5s;
+}
+.imagen img:hover
+{
+    transform: scale(0.9);
+}
+
+
+.mensaje 
+{
+    background-color:#2e66df;
+    color:#cedae2;
+    font-size: 12px;
+    border-radius:10px;
+    padding:10px;
+    text-decoration: none;
+    border: none;
+    top:1px;
+    left:1px;
+    position:relative;
+    cursor:pointer;
+    
+}
+
+.imgvaron 
+{
+    width: 300px;
+    position: absolute;
+    left: 480px;
+    top:270px;
+}
+.imgbody 
+{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 455px;
+    top:100px;
+}
+.ilustracion
+{
+    width: 300px;
+    position: absolute;
+    left: 280px;
+    top:90px;
+    
+}
+.popup
+{
+    z-index: 100;
+    position: absolute;
+    width:100%;
+    height: 500%;
+    background: rgba(0,0,0,0.6);
+    display:none;
+    
+}
+
+
+.ventana
+{
+    z-index: 200;
+    width: 35%;
+    color:#8b91acfd;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 15px;
+    position: fixed;
+    left:34%;
+    transform: translate(-10% ,20%);
+    display: none;
+    background: #fff;
+    
+    
+}
+.mensaje-enviado
+{
+    z-index: 200;
+    width: 18%;
+    color:#fafaf6fd;
+    font-family:Century Gothic;
+    font-size:20px;
+    text-align: center;
+    padding: 33px;
+    min-height: 50px;
+    border-radius: 15px;
+    position: fixed;
+    left:34%;
+    transform: translate(-10% ,20%);
+    display: none;
+    background: rgb(236, 223, 42);
+}
+.mensaje-enviado input
+{
+    position: relative;
+    top:10px;
+    font-family:cursive;
+    border:none;
+    color:rgb(221, 132, 30);
+    font-size:20px;
+    padding:5px 15px;
+    border-radius:5px;
+    cursor:pointer;
+    background: #c7e909;
+    
+}
+
+section
+{
+    position:absolute;
+    width: 40%;
+    text-align: justify;
+}
+
+label
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px;
+    position: relative;
+    padding:10px;
+    top:315px;
+    left:70;
+
+}
+.miname
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position: relative;
+    padding:0px;
+    top:315px;
+    left:175px;
+    text-align: justify;
+    
+    
+}
+.gif
+{
+    height:200px;
+    position: relative;
+    top: 270px;
+    left: 170px;
+    
+    
+}
+p
+{
+    color:#3a0a99c7;
+    font-family:Helvetica;
+    font-size:14px;
+    position: relative;
+    padding:100px;
+    top:210px;
+    left:0px; 
+}
+.in:hover
+{
+    transform:scale(0.9);
+}
+.in
+{
+    font-size: 15px;
+    background-color:#4f32b8;
+    border-radius:15px;
+    padding:9px;
+    text-decoration: none;
+    border: none;
+    bottom: -120px;
+    left:190px;
+    position:relative;
+    color:#f5f8fa;
+    cursor:pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s;
+}
+h1
+{
+    color: #6062db;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px; 
+    margin-top:7px;
+    margin-bottom:2px;
+}
+h2
+{
+    color: #7b7b86;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin:1px 2px;
+
+}
+.textbox
+{
+   margin-bottom: 15px;
+   border: none;
+   
+   text-align:left;
+   position: relative;
+   padding: 10px;
+   padding-top:0px;
+   padding-bottom:0%;
+   height:90px;
+}
+textarea
+{
+    font-size:15px;
+   width:70%;
+   padding:10px;
+   border: 1px solid#aaa;
+   margin-bottom: 1px;
+   border-radius:5px;
+   margin-top:4px;
+   font-family: Arial;
+   font-size:15px;
+}
+input[type="text"] ,[type="Email"]
+{
+   font-size:15px;
+   width:70%;
+   padding:10px;
+   border: 1px solid#aaa;
+   margin-bottom: 1px;
+   border-radius:5px;
+   margin-top:4px;
+   
+}
+
+.button
+{
+    transform: translate( 15%, 12%);
+    border:none;
+    width:55%;
+    color:white;
+    font-size:20px;
+    padding:5px 15px;
+    border-radius:5px;
+    cursor:pointer;
+    background: #4b99ce;
+    margin-right: 220px;
+}
+
+.cerrar
+{
+    position:absolute;
+    right: 20px;
+
+}

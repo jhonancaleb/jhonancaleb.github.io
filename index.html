@@ -1,0 +1,232 @@
+<html>
+    <link rel="icon" type="image/png" href="imagenes/buho.png">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jhonan Muñoz</title>
+    <link href="ind.css" rel="stylesheet">
+   
+   
+</head>
+<body id="cuerpo">
+    <header>
+        <img src="imagenes/buho.png" alt=""><label class="owl">OwlServices</label>
+        <div class="menu">
+        <nav >
+            <ul>
+             <li><a href="#contenedor">Inicio</a></li>
+             <li><a href="#contenedor-2">Sobre mí</a></li>
+             <li><a href="#contenedor-3">Servicios</a></li>
+             <li><a href="#contenedor-4">Contactos</a></li>
+             <li><a href="javascript:abrir();"><img src="imagenes/correo-electronico.png" title="Enviar un mensaje" id="email-icon" ></a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <img src="undraw.svg" class="imgbody">
+    <img src="imagenes/ofivaron.png" class="imgvaron">
+    <div class="popup" id="opaco">
+       <form class="ventana" id="vent">
+        <div class="cerrar"><a href="javascript:cerrar()"><img src="imagenes/cerrar.png"></a></div>
+        <h1>Bienvenido a mi página web</h1><br>
+        <img src="imagenes/oficinista.png" class="ilustracion">
+        <div class="datos" id="dates">
+            <div class="textbox">
+               <h2>Nombres:<br><input type="text" id="name" placeholder="Nombres y apellidos" required></h2><br>
+            </div>
+           <div class="textbox"> 
+               <h2>Correo:<br><input type="Email" placeholder="Escriba su correo electrónico" id="email" required></h2><br>
+           </div>
+           <div class="textbox"> 
+              <h2>Mensaje<br></h2>
+              <textarea name="comen" placeholder="Deja aquí tu mensaje" required></textarea>
+           </div>
+        </div>   
+        <button type="submit" class="button" onclick="javascript:confirmacion()" title="Enviar registro">Enviar</button>
+       </form>
+    </div>  
+    <div class="mensaje-enviado" id="confirmacion">
+        Tu mensaje ha sido enviado correctamente
+        <input type="button" onclick="javascript:cerrar()" value="OK" >
+    </div>
+    <section id="contenedor">
+        <img src="imagenes/buhooo.gif" class="gif">
+        <label>Hola</label><br>
+        <label class="miname">Bienvenido a OwlServices. 
+        </label>
+        <p>Esta es una empresa creada para ayudarte en cualquier dificultad que tengas respecto ala inteligencia artificial.
+             Tambien ayudamos en la proteccion de datos y ciberseguridad.
+        </p>
+        
+        
+    </section>
+    
+    <section id="contenedor-2">
+        <div class="mis-datos">
+            <img src="imagenes/setsubou.jpg" alt="Mi perfil" class="yo">
+            <label>¿Cómo estás? Soy Jhonan.</label>
+            <p>
+                Mi nombre es Jhonan Caleb Muñoz Carrillo, soy ingeniero de software.
+                especializado en la creación de páginas y sitios web.
+                También ingeniero de ciberseguridad y programador de inteligencia artificial.
+            </p>
+            <a class="in" href="pdf/JHONAN_CALEB_MUÑOZ_CARRILLO_CV..pdf" target="_blank">Descargar CV</a>
+        </div>
+    </section>
+    <aside class="skills">
+        <label class="habili">Habilidades:</label>
+        <div class="imagenes">
+        <a href="https://es.wikipedia.org/wiki/HTML5" target="_blank"><img src="imagenes/html-5.png" class="pri" title="HTML" ></a>
+        <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada" target="_blank"><img src="imagenes/css-3.png" class="pri" title="CSS" ></a>
+        <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank"><img src="imagenes/js.png" class="pri" title="JavaScript"></a>
+        <a href="https://es.wikipedia.org/wiki/Python" target="_blank"><img src="imagenes/piton.png" class="se" title="Python" ></a>
+        <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programación)" target="_blank"><img src="imagenes/java.png" class="se" title="Java" ></a>
+        <a href="https://es.wikipedia.org/wiki/PHP" target="_blank"><img src="imagenes/php.png" class="se" title="PHP" ></a>
+        </div>
+    </aside>
+    
+    <section id="contenedor-3">
+        <!-- <img src="imagenes/imgmega.png" class="fondo-mega"> -->
+        <div class="contenedor-general">
+            <div class="servicios">Servicios</div>
+            <div class="contenedor-particular">
+               <div class="imagen">
+                 <img src="imagenes/smarthphone.png">
+               </div>
+               <div class="titulo">
+                Completamente receptiva
+               </div> 
+               <div class="parrafo">
+                 <p>La propiedad de visualización de su sitio en cualquier dispositivo, 
+                     incluidas las computadoras de escritorio,
+                    tabletas y teléfonos móviles.</p>
+               </div>
+           </div>
+           <div class="contenedor-particular">
+             <div class="imagen">
+               <img src="imagenes/lapiz.png">
+             </div>
+             <div class="titulo">
+                 Diseño creativo
+             </div> 
+             <div class="parrafo">
+              <p>Un buen diseño web atractivo le ayuda a mantener sus clientes 
+                  potenciales en su sitio, que es el
+                cara de tu negocio.</p>
+             </div>
+           </div>
+           <div class="contenedor-particular">
+               <div class="imagen">
+                  <img src="imagenes/deve.png">
+               </div>
+               <div class="titulo">
+                   Desarrollo
+               </div> 
+               <div class="parrafo">
+                  <p>
+                    Conozco la importancia del diseño web y puedo ayudarte 
+                    con un sitio web que te encantará.</p>
+               </div>
+           </div>   
+           <div class="contenedor-particular">
+               <div class="imagen">
+                 <img src="imagenes/like (1).png">
+               </div>
+               <div class="titulo">
+                  Integración de redes sociales
+               </div> 
+               <div class="parrafo">
+                  <p>Hay muchas plataformas sociales
+                       y debes promocionar tu presencia en
+                    ellos en su sitio web.</p>
+               </div>
+           </div>    
+           <div class="contenedor-particular">
+                <div class="imagen">
+                  <img src="imagenes/cronometro.png">
+                </div>
+                <div class="titulo">
+                  Funcionamiento eficaz
+                </div> 
+                <div class="parrafo">
+                  <p>
+                    Reanudar el uso es crucial para mejorar las conversiones. Sitios de alto rendimiento
+                    involucran y retienen a los usuarios.
+                    </p>
+                </div>
+           </div>     
+           <div class="contenedor-particular">
+                <div class="imagen">
+                  <img src="imagenes/aim.png">
+                </div>
+                <div class="titulo">
+                  Posicionamiento en buscadores
+                </div> 
+                <div class="parrafo">
+                  <p>Optimizaré tu sitio con la búsqueda inteligente
+                    Estrategia de optimización del motor para generar guías.</p>
+                </div>
+           </div>      
+        </div>
+    </section>   
+    <section id="contenedor-4">
+        <div class="contenedor-general">
+            <div class="contactos">Contactos
+                <p>Contáctame si deseas trabajar conmigo.</p>
+            </div>
+            <div class="contenedor-particular">
+                <a href="http://facebook.com" target="_blank"><img src="imagenes/facebook.png" alt="Facebook" class="imagen"></a><br>
+                Follow me
+            </div>
+            <div class="contenedor-particular">
+                <a href="http://gmail.com" target="_blank"><img src="imagenes/gmail.png" alt="Twitter" class="imagen"></a><br>
+                Mail me
+            </div>
+            <div class="contenedor-particular">
+                <a href="http://outlook.com" target="_blank"><img src="imagenes/outlook.png" alt="Outlook" class="imagen"></a><br>
+                Contact me
+            </div>
+            <div class="contenedor-particular">
+                <a href="https://www.twitch.tv/" target="_blank"><img src="imagenes/twitch.png" alt="Twich" class="imagen"></a><br>
+                Watch me
+            </div>
+        </div>
+    </section>
+    <footer class="pie-pagina">
+        Copyright@ 2021 jhonancalebm@gmail.com
+        Todos lo derechos reservados.
+
+    </footer>
+
+    
+    
+    <script>
+        function abrir() 
+        {
+            document.getElementById("vent").style.display="block";
+            document.getElementById("opaco").style.display="block";
+            document.getElementById("cuerpo").style.overflow="hidden";
+            
+        }
+        function cerrar()
+        {
+            document.getElementById("vent").style.display="none"
+            document.getElementById("opaco").style.display="none";
+            document.getElementById("cuerpo").style.overflow="visible";
+        }
+        function confirmacion() 
+        {
+            document.getElementById("confirmacion").style.display="none";
+            document.getElementById("opaco").style.display="none";
+            document.getElementById("cuerpo").style.overflow="visible";
+            
+        }
+    </script>
+
+</body>
+
+
+
+
+
+</html>
